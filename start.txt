@@ -1,0 +1,14 @@
+(base) PS C:\Users\ericzhang> conda env list
+(base) PS C:\Users\ericzhang> conda list
+(base) PS C:\Users\ericzhang> conda create -n aiot python=3.7
+Proceed ([y]/n)? y
+(base) PS C:\Users\ericzhang> conda activate aiot
+(aiot) PS C:\Users\ericzhang> ls
+(aiot) PS C:\Users\ericzhang> cd .\Desktop\
+(aiot) PS C:\Users\ericzhang\Desktop> ls
+(aiot) PS C:\Users\ericzhang\Desktop> cd .\socket\
+(aiot) PS C:\Users\ericzhang\Desktop\socket> ls
+(aiot) PS C:\Users\ericzhang\Desktop\socket> pip install -r .\require_module.txt
+(aiot) PS C:\Users\ericzhang\Desktop\socket> pip install -r .\require_module.txt
+(aiot) PS C:\Users\ericzhang\Desktop\socket> cd ..
+(aiot) PS C:\Users\ericzhang\Desktop> python socket2.py
